@@ -8,6 +8,10 @@ function build(opts={}) {
     return { hello: 'world' }
   })
 
+  app.get('/health', async function (request, reply) {
+    return { status: 'ok' }
+  })
+
   app.get('/api/todos', async function (request, reply) {
     return [{ hello: 'world' , completed: true}]
   })

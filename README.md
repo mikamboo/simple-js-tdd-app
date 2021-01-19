@@ -2,6 +2,8 @@
 
 Learn JavaScript/NodeJS test-driven developpement (TDD) using __mocha__ + native __assert__
 
+Repo URL : https://github.com/mikamboo/simple-js-tdd-app
+
 ## Stack 
 
 |Domain|Solution|
@@ -43,6 +45,7 @@ yarn test-cov
 * [ ] Add code coverage
 * [ ] Add monitoring stack
 * [ ] Add docker-compose
+* [ ] Add one-click deploy
 
 ## Links
 
@@ -50,3 +53,4 @@ yarn test-cov
 * https://medium.com/swlh/setup-a-modern-javascript-tdd-environment-with-vs-code-131c4de44203
 * https://github.com/CircleCI-Public/circleci-demo-javascript-react-app
 * https://developers.redhat.com/blog/2016/03/15/test-driven-development-for-building-apis-in-node-js-and-express
+* https://www.digitalocean.com/community/tutorials/workflow-nodemon-fr
