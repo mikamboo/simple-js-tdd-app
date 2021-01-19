@@ -1,0 +1,23 @@
+{
+  "name": "01-js-assert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "test": "mocha '**/*.test.js' --ignore 'node_modules/**/*'",
+    "test-cov": "nyc --reporter=text --reporter=lcov yarn test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "pino-pretty": "^4.3.0",
+    "tap": "^14.11.0"
+  },
+  "dependencies": {
+    "fastify": "^3.10.1"
+  }
+}
